@@ -1,0 +1,20 @@
+/* 页面初始化 */
+body {
+  font-size: 12px;
+  font-family: Arial, "Lucida Grande", "Microsoft Yahei", "Hiragino Sans GB", "Hiragino Sans GB W3", "SimSun", "PingFang SC", "STHeiti";
+  _font-family: Tahoma, Arial, Helvetica, STHeiti;
+  color: #666;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF9D00;
+}
+
+.container_ros {
+  width: 1200px;
+  margin: 0 auto;
+}

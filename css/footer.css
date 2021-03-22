@@ -1,0 +1,152 @@
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #3C3C3C;
+  clear: both;
+  height: 600px;
+}
+footer .container {
+  width: 1105px;
+  margin: 0 auto;
+}
+footer .container .fo-message {
+  color: #c2c2c2;
+  width: 100%;
+  padding: 30px 8px 40px 8px;
+  border-bottom: 1px solid #575a5b;
+}
+footer .container .fo-message .fo-message-inner {
+  display: flex;
+}
+footer .container .fo-message dl dt {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+footer .container .fo-message dl dd {
+  font-size: 12px;
+  line-height: 22px;
+}
+footer .container .fo-message dl dd span {
+  color: #ff9d00;
+}
+footer .container .fo-message dl:nth-of-type(1) {
+  width: 200px;
+  margin-right: 68px;
+}
+footer .container .fo-message dl:nth-of-type(2) {
+  width: 140px;
+  margin-right: 85px;
+}
+footer .container .fo-message dl:nth-of-type(2):nth-of-type(1) a,
+footer .container .fo-message dl:nth-of-type(2):nth-of-type(2) a,
+footer .container .fo-message dl:nth-of-type(2):nth-of-type(6) a {
+  margin-right: 6px;
+}
+footer .container .fo-message dl:nth-of-type(2) a {
+  color: #c2c2c2;
+}
+footer .container .fo-message dl:nth-of-type(2) a:hover {
+  color: #fff;
+}
+footer .container .fo-message dl:nth-of-type(3) {
+  width: 135px;
+  margin-right: 80px;
+}
+footer .container .fo-message dl:nth-of-type(3) a {
+  color: #c2c2c2;
+}
+footer .container .fo-message dl:nth-of-type(3) a:hover {
+  color: #fff;
+}
+footer .container .fo-message dl:nth-of-type(3) dt {
+  text-align: center;
+}
+footer .container .fo-message dl:nth-of-type(3) dd {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .fo-message dl:nth-of-type(4) dd {
+  float: left;
+  padding: 18px;
+  width: 90px;
+}
+footer .container .fo-message dl:nth-of-type(4) dd div {
+  width: 90px;
+}
+footer .container .fo-message dl:nth-of-type(4) dd div img {
+  width: 90px;
+  height: 90px;
+}
+footer .container .fo-message dl:nth-of-type(4) dd p {
+  width: 100%;
+  text-align: center;
+}
+footer .container .fo-message dl:nth-of-type(4) dd p span {
+  display: block;
+  color: #c2c2c2;
+  line-height: 15px;
+}
+footer .container .fo-message .pioneer {
+  padding-top: 25px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+footer .container .fo-message .pioneer dl {
+  margin: 0 auto;
+}
+footer .container .fo-message .pioneer dl dt {
+  font-size: 16px;
+}
+footer .container .fo-message .pioneer dl dd {
+  float: left;
+  margin-right: 8px;
+}
+footer .container .fo-message .pioneer dl dd a {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+footer .container .fo-message .pioneer dl dd:nth-of-type(1) {
+  margin-left: 30px;
+}
+footer .container .fo-message .pioneer dl dd:nth-of-type(1) a {
+  background: url(../images/icon2.png) no-repeat 0 0;
+}
+footer .container .fo-message .pioneer dl dd:nth-of-type(2) a {
+  background: url(../images/icon2.png) no-repeat -31px 0;
+}
+footer .container .fo-message .pioneer dl dd:nth-of-type(3) a {
+  background: url(../images/icon2.png) no-repeat -60px 0;
+}
+footer .container .fo-link {
+  border-bottom: 1px solid #575a5b;
+  padding: 17px 0 17px 8px;
+}
+footer .container .fo-link a {
+  color: #c2c2c2;
+  margin-right: 12px;
+}
+footer .container .fo-link a:hover {
+  color: #fff;
+}
+footer .container .fo-safety {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 30px 0;
+}
+footer .container .fo-safety a {
+  display: block;
+  width: 90px;
+  height: 30px;
+  margin-left: 10px;
+}
+footer .container .fo-safety a:nth-of-type(1) {
+  background: url(../images/icon2.png) no-repeat 0px -110px;
+}
+footer .container .fo-safety a:nth-of-type(2) {
+  background: url(../images/0000.png) no-repeat;
+}
+footer .container .fo-safety a:nth-of-type(3) {
+  background: url(../images/000000.png) no-repeat;
+}

@@ -1,0 +1,178 @@
+.header {
+  width: 100%;
+  height: 68px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #cfcfcf;
+  }
+
+  .head-logo {
+    padding: 16px 0 13px;
+    float: left;
+    height: 30px;
+    margin-right: 25px;
+
+    i{
+      display: block;
+      width: 137px;
+      height: 39px;
+      background: url(../images/sprite.png) no-repeat 0 0;
+    }
+  }
+
+  .nav {
+    height: 100%;
+    font-size: 16px;
+    position: relative;
+    z-index: 999;
+    cursor: pointer;
+    float: left;
+
+    .active {
+      background-color: #FF9C00;
+      color: #fff;
+    }
+
+    li {
+      position: relative;
+      line-height: 68px;
+      float: left;
+      padding: 0 16px;
+
+      a {
+        color: #303030;
+      }
+
+      .choiceness {
+        display: block;
+        width: 74px;
+        height: 30px;
+        background: url(../images/lvzjx.png) no-repeat center center;
+        background-size: 74px 30px;
+        padding: 19px 0;
+      }
+
+
+
+      &:hover::before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 3px;
+        background-color: #FF9C00;
+      }
+
+      &:hover a {
+        color: #FFA514;
+      }
+
+      &:nth-child(4) {
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 33px;
+          right: 3px;
+          width: 0px;
+          height: 0px;
+          border: 4px solid transparent;
+          border-top: 4px solid #666;
+        }
+      }
+
+      &:nth-child(5) {
+        position: relative;
+
+        span {
+          position: absolute;
+          top: 9px;
+          right: -6px;
+          width: 32px;
+          height: 16px;
+          text-align: center;
+          line-height: 16px;
+          font-size: 12px;
+          font-weight: bold;
+          color: #fff;
+          background-color: #FC6063;
+          border-top-left-radius: 4px;
+          border-bottom-right-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .login_out {
+    height: 100%;
+    // line-height: 68px;
+    float: right;
+    padding: 21px 0;
+
+    a {
+      font-size: 14px;
+      color: #FF9C00;
+    }
+
+    .microblog,
+    .qq,
+    .WeChat {
+      float: left;
+      display: block;
+      width: 26px;
+      height: 26px;
+      margin-right: 10px;
+    }
+
+    .microblog {
+      background: url(../images/sprite.png) no-repeat 0 -50px;
+
+      &:hover {
+        background: url(../images/sprite.png) no-repeat 0 -80px;
+
+      }
+    }
+
+    .qq {
+      background: url(../images/sprite.png) no-repeat -30px -50px;
+
+      &:hover {
+        background: url(../images/sprite.png) no-repeat -30px -80px;
+
+      }
+    }
+
+    .WeChat {
+      background: url(../images/sprite.png) no-repeat 0 -165px;
+
+      &:hover {
+        background: url(../images/sprite.png) no-repeat -30px -165px;
+
+      }
+    }
+
+    .login,
+    .register {
+      //垂直对齐方式
+      vertical-align: -7px;
+    }
+
+    i {
+      display: inline-block;
+      margin: 0 8px;
+      width: 1px;
+      height: 14px;
+      background-color: #c9c9c9;
+      vertical-align: -8px;
+    }
+  }
+}
